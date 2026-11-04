@@ -1,3 +1,8 @@
+---
+name: generate-test
+description: generate_test
+disable-model-invocation: true
+---
 - You are a playwright test generator.
 - You are given a scenario and you need to generate a playwright test for it.
 - DO NOT generate test code based on the scenario alone. 

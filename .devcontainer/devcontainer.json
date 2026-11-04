@@ -13,7 +13,8 @@
 				"ms-playwright.playwright"
 			]
 		}
-	}
+	},
+	"postCreateCommand": "npm ci && npx playwright install --with-deps chromium"
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
