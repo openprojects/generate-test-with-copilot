@@ -1,0 +1,131 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e3] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link " Go to the Indico Home Page" [ref=e9] [cursor=pointer]:
+          - /url: /
+          - text: 
+          - generic: Go to the Indico Home Page
+        - link " Oldest event" [ref=e12] [cursor=pointer]:
+          - /url: /event/22164/
+          - text: 
+          - generic: Oldest event
+        - link " Older event" [ref=e14] [cursor=pointer]:
+          - /url: /event/1024143/
+          - text: 
+          - generic: Older event
+        - link " Up to category" [ref=e16] [cursor=pointer]:
+          - /url: /category/203/
+          - text: 
+          - generic: Up to category
+        - button " Export " [ref=e20] [cursor=pointer]:
+          - text: 
+          - generic: Export
+          - text: 
+        - button " Change theme " [ref=e23] [cursor=pointer]:
+          - text: 
+          - generic: Change theme
+          - text: 
+      - generic [ref=e27]:
+        - text: 
+        - button " Europe/Zurich " [ref=e28] [cursor=pointer]
+        - button "The current language is English. Use a different language." [ref=e29] [cursor=pointer]:  English 
+        - link " Login" [ref=e30] [cursor=pointer]:
+          - /url: https://indico.un.org/login/?next=/event/1026728/
+  - main [ref=e31]:
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - heading [level=1] [ref=e37]:
+          - link "Test thon" [ref=e38] [cursor=pointer]:
+            - /url: /event/1026728/
+        - generic [ref=e41]:
+          - generic [ref=e43]:
+            - generic [ref=e44]: 12–13 Nov 2026
+            - generic [ref=e45]: Europe/Zurich timezone
+          - generic [ref=e48] [cursor=pointer]:
+            - generic [ref=e49]: Search Indico
+            - generic [ref=e51]:
+              - textbox "Search Indico" [ref=e52]:
+                - /placeholder: Enter your search term
+              - generic [aria-hidden]: 
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - navigation [ref=e55]:
+            - heading "Event menu" [level=2] [ref=e56]
+            - list [ref=e57]:
+              - listitem [ref=e58]:
+                - link "Overview" [ref=e59] [cursor=pointer]:
+                  - /url: /event/1026728/overview
+              - listitem [ref=e60]:
+                - link "Registration" [ref=e61] [cursor=pointer]:
+                  - /url: /event/1026728/registrations/
+          - generic [ref=e62]:
+            - heading "Mr. Giorgio Pieretti" [level=3] [ref=e63]
+            - list [ref=e64]:
+              - listitem [ref=e65]:
+                - generic [aria-hidden] [ref=e66]: 
+                - link "giorgio.pieretti@un.org" [ref=e67] [cursor=pointer]:
+                  - /url: mailto:giorgio.pieretti@un.org?subject=Test%20thon
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - heading "Conference information" [level=2] [ref=e74]
+            - generic [ref=e75]:
+              - heading " Date/Time" [level=3] [ref=e76]:
+                - text: 
+                - generic [ref=e77]: Date/Time
+              - generic [ref=e78]:
+                - paragraph [ref=e79]:
+                  - text: Starts
+                  - time [ref=e80]: 12 Nov 2026, 17:00
+                - paragraph [ref=e81]:
+                  - text: Ends
+                  - time [ref=e82]: 13 Nov 2026, 19:00
+                - paragraph [ref=e83]:
+                  - generic [ref=e84]: All times are in Europe/Zurich
+                  - generic [aria-hidden] [ref=e85]: Europe/Zurich
+            - generic [ref=e86]:
+              - generic [aria-hidden] [ref=e87]: 
+              - generic "Arrangement Type" [ref=e89]: In-Person
+          - generic [ref=e91]:
+            - generic [ref=e92]: 
+            - generic [ref=e93]:
+              - generic [ref=e94]: Registration
+              - generic [ref=e95]: Registration for this event is currently open.
+            - link "Register now " [ref=e97] [cursor=pointer]:
+              - /url: /event/1026728/registrations/
+  - contentinfo [ref=e98]:
+    - generic [ref=e99]:
+      - generic [ref=e102]:
+        - text: Powered by
+        - link "Indico" [ref=e103] [cursor=pointer]:
+          - /url: https://getindico.io/
+        - text: / Brought to you by
+        - link "UNOG" [ref=e104] [cursor=pointer]:
+          - /url: https://www.ungeneva.org/
+        - text: and
+        - link [ref=e105] [cursor=pointer]:
+          - /url: https://umoja.un.org/
+          - img "umoja" [ref=e106]
+      - list [ref=e107]:
+        - listitem [ref=e108]:
+          - link "Code of Conduct" [ref=e109] [cursor=pointer]:
+            - /url: /static/plugins/un/assets/un-code-of-conduct.pdf
+        - listitem [ref=e110]:
+          - text: "|"
+          - link "About" [ref=e111] [cursor=pointer]:
+            - /url: /about
+        - listitem [ref=e112]:
+          - text: "|"
+          - link "Privacy" [ref=e113] [cursor=pointer]:
+            - /url: https://www.un.org/en/about-us/privacy-notice
+        - listitem [ref=e114]:
+          - text: "|"
+          - link "Help" [ref=e115] [cursor=pointer]:
+            - /url: https://indicohelp.unog.ch/
+        - listitem [ref=e116]:
+          - text: "|"
+          - link "Contact" [ref=e117] [cursor=pointer]:
+            - /url: https://indicohelp.unog.ch/contact-us/
+      - img "Share this page" [ref=e120] [cursor=pointer]

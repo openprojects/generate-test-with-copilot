@@ -1,5 +1,5 @@
 {
-  "chat.tools.autoApprove": false,
+  "chat.tools.autoApprove": true,
   "chat.tools.terminal.autoApprove": {
     "curl": false
   }

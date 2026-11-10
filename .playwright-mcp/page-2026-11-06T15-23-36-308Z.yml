@@ -1,0 +1,34 @@
+- main [ref=f2e4]:
+  - generic [ref=f2e5]:
+    - navigation [ref=f2e7]:
+      - link "All1" [ref=f2e8] [cursor=pointer]:
+        - /url: "#?"
+      - link "Passed0" [ref=f2e9] [cursor=pointer]:
+        - /url: "#?q=s%3Apassed"
+      - link "Failed1" [ref=f2e10] [cursor=pointer]:
+        - /url: "#?q=s%3Afailed"
+      - link "Flaky0" [ref=f2e13] [cursor=pointer]:
+        - /url: "#?q=s%3Aflaky"
+      - link "Skipped0" [ref=f2e14] [cursor=pointer]:
+        - /url: "#?q=s%3Askipped"
+      - link "Speedboard" [ref=f2e15] [cursor=pointer]:
+        - /url: "#?speedboard"
+      - button "Settings" [ref=f2e18] [cursor=pointer]
+    - textbox "Search tests" [ref=f2e22]
+  - generic [ref=f2e24]:
+    - generic [ref=f2e25]: "Project: chromium"
+    - generic [ref=f2e28]: 06/11/2026, 16:22:47
+    - generic [ref=f2e29]: "Total time: 9.9s"
+  - generic [ref=f2e30]:
+    - button "registration-add-notes.spec.ts" [expanded] [ref=f2e31] [cursor=pointer]
+    - region [ref=f2e34]:
+      - list [ref=f2e35]:
+        - listitem [ref=f2e36]:
+          - generic [ref=f2e37]:
+            - generic [ref=f2e42]:
+              - link "Add notes is mandatory on the registration form" [ref=f2e43] [cursor=pointer]:
+                - /url: "#?testId=9465d750c49d8d36d204-0cb7a43cd455d71185df"
+              - generic [ref=f2e44]: chromium
+            - generic [ref=f2e47]: 8.8s
+          - link "registration-add-notes.spec.ts:5" [ref=f2e50] [cursor=pointer]:
+            - /url: "#?testId=9465d750c49d8d36d204-0cb7a43cd455d71185df"

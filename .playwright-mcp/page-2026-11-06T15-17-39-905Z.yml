@@ -1,0 +1,285 @@
+- generic [active] [ref=f1e1]:
+  - link "Skip to main content" [ref=f1e3] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f1e5]:
+    - generic [ref=f1e6]:
+      - generic [ref=f1e7]:
+        - link " Go to the Indico Home Page" [ref=f1e9] [cursor=pointer]:
+          - /url: /
+          - text: 
+          - generic: Go to the Indico Home Page
+        - link " Oldest event" [ref=f1e12] [cursor=pointer]:
+          - /url: /event/22164/
+          - text: 
+          - generic: Oldest event
+        - link " Older event" [ref=f1e14] [cursor=pointer]:
+          - /url: /event/1024143/
+          - text: 
+          - generic: Older event
+        - link " Up to category" [ref=f1e16] [cursor=pointer]:
+          - /url: /category/203/
+          - text: 
+          - generic: Up to category
+        - button " Export " [ref=f1e20] [cursor=pointer]:
+          - text: 
+          - generic: Export
+          - text: 
+        - button " Change theme " [ref=f1e23] [cursor=pointer]:
+          - text: 
+          - generic: Change theme
+          - text: 
+      - generic [ref=f1e27]:
+        - text: 
+        - button " Europe/Zurich " [ref=f1e28] [cursor=pointer]
+        - button "The current language is English. Use a different language." [ref=f1e29] [cursor=pointer]:  English 
+        - link " Login" [ref=f1e30] [cursor=pointer]:
+          - /url: https://indico.un.org/login/?next=/event/1026728/registrations/28973/
+  - main [ref=f1e31]:
+    - generic [ref=f1e33]:
+      - generic [ref=f1e34]:
+        - heading [level=1] [ref=f1e37]:
+          - link "Test thon" [ref=f1e38] [cursor=pointer]:
+            - /url: /event/1026728/
+        - generic [ref=f1e41]:
+          - generic [ref=f1e43]:
+            - generic [ref=f1e44]: 12–13 Nov 2026
+            - generic [ref=f1e45]: Europe/Zurich timezone
+          - generic [ref=f1e48] [cursor=pointer]:
+            - generic [ref=f1e49]: Search Indico
+            - generic [ref=f1e51]:
+              - textbox "Search Indico" [ref=f1e52]:
+                - /placeholder: Enter your search term
+              - generic [aria-hidden]: 
+      - generic [ref=f1e53]:
+        - generic [ref=f1e54]:
+          - navigation [ref=f1e55]:
+            - heading "Event menu" [level=2] [ref=f1e56]
+            - list [ref=f1e57]:
+              - listitem [ref=f1e58]:
+                - link "Overview" [ref=f1e59] [cursor=pointer]:
+                  - /url: /event/1026728/overview
+              - listitem [ref=f1e60]:
+                - link "Registration" [ref=f1e61] [cursor=pointer]:
+                  - /url: /event/1026728/registrations/
+          - generic [ref=f1e62]:
+            - heading "Mr. Giorgio Pieretti" [level=3] [ref=f1e63]
+            - list [ref=f1e64]:
+              - listitem [ref=f1e65]:
+                - generic [aria-hidden] [ref=f1e66]: 
+                - link "giorgio.pieretti@un.org" [ref=f1e67] [cursor=pointer]:
+                  - /url: mailto:giorgio.pieretti@un.org?subject=Test%20thon
+        - generic [ref=f1e70]:
+          - generic [ref=f1e73]:
+            - heading "Application" [level=2] [ref=f1e75]
+            - heading "Registration" [level=3] [ref=f1e77]
+          - generic [ref=f1e78]:
+            - generic [ref=f1e80]:
+              - generic [ref=f1e81]: 
+              - generic [ref=f1e82]:
+                - generic [ref=f1e83]: Participation in this event is moderated
+                - text: Your registration will have to be approved.
+            - generic [ref=f1e85]:
+              - generic [ref=f1e86]:
+                - generic [ref=f1e87]:
+                  - generic [ref=f1e88]: Representation
+                  - generic [ref=f1e89]: For representatives of organizations
+                - generic [ref=f1e93]:
+                  - generic [ref=f1e94] [cursor=pointer]: Representation Type *
+                  - combobox [ref=f1e96] [cursor=pointer]:
+                    - textbox [ref=f1e97]
+                    - alert [ref=f1e98]: Select the representation type...
+                    - generic [aria-hidden] [ref=f1e99]: 
+              - generic [ref=f1e100]:
+                - heading "Personal Data" [level=4] [ref=f1e103]
+                - generic [ref=f1e104]:
+                  - generic [ref=f1e106]:
+                    - group "Picture *" [ref=f1e108]:
+                      - generic [ref=f1e116]:
+                        - generic [ref=f1e117]: Drag a picture here
+                        - generic [ref=f1e118]: Or
+                        - generic [ref=f1e119]:
+                          - button "Choose from your computer" [ref=f1e121] [cursor=pointer]:
+                            - generic [aria-hidden] [ref=f1e122]: 
+                            - text: Choose from your computer
+                          - button "Take a picture" [ref=f1e125] [cursor=pointer]:
+                            - generic [aria-hidden] [ref=f1e126]: 
+                            - text: Take a picture
+                    - generic [ref=f1e128]:
+                      - generic [ref=f1e129]: 
+                      - generic [ref=f1e130]:
+                        - paragraph [ref=f1e131]: "The picture must fulfill the following requirements:"
+                        - list [ref=f1e132]:
+                          - listitem [ref=f1e133]: The background must be plain and uniform.
+                          - listitem [ref=f1e134]: The face must be properly positioned within the guiding ellipses.
+                          - listitem [ref=f1e135]: The face must be directly facing the camera with a neutral expression.
+                          - listitem [ref=f1e136]: The image must be of high resolution and free from any manual edits or alterations.
+                        - paragraph [ref=f1e137]:
+                          - text: For more information, please refer to the
+                          - link "official picture requirements" [ref=f1e138] [cursor=pointer]:
+                            - /url: /static/plugins/un/assets/reg-picture-requirements.pdf
+                          - text: .
+                  - generic [ref=f1e141]:
+                    - generic [ref=f1e142] [cursor=pointer]: Title *
+                    - combobox [ref=f1e146] [cursor=pointer]:
+                      - generic [ref=f1e147]: Select a choice 
+                  - generic [ref=f1e150]:
+                    - generic [ref=f1e151] [cursor=pointer]: Gender *
+                    - combobox [ref=f1e155] [cursor=pointer]:
+                      - generic [ref=f1e156]: Select a choice 
+                  - generic [ref=f1e159]:
+                    - generic [ref=f1e160] [cursor=pointer]: First Name *
+                    - textbox "First Name *" [ref=f1e163]
+                  - generic [ref=f1e166]:
+                    - generic [ref=f1e167] [cursor=pointer]: Last Name *
+                    - textbox "Last Name *" [ref=f1e170]
+                  - generic [ref=f1e173]:
+                    - generic [ref=f1e174] [cursor=pointer]: Position
+                    - textbox "Position" [ref=f1e177]
+                  - generic [ref=f1e180]:
+                    - generic [ref=f1e181] [cursor=pointer]: Birth date *
+                    - generic [ref=f1e185]:
+                      - textbox "Birth date *" [ref=f1e186]:
+                        - /placeholder: YYYY/MM/DD
+                      - button " Open a calendar" [ref=f1e187] [cursor=pointer]:
+                        - text: 
+                        - generic [ref=f1e188]: Open a calendar
+                      - generic:    
+                      - generic [ref=f1e189]: "Date format: YYYY/MM/DD"
+                  - generic [ref=f1e192]:
+                    - generic [ref=f1e193] [cursor=pointer]: Address
+                    - textbox "Address" [ref=f1e195]
+                  - generic [ref=f1e198]:
+                    - generic [ref=f1e199] [cursor=pointer]: City *
+                    - textbox "City *" [ref=f1e202]
+                  - generic [ref=f1e205]:
+                    - generic [ref=f1e206] [cursor=pointer]: Country
+                    - combobox [ref=f1e208] [cursor=pointer]:
+                      - generic [ref=f1e209]: Select a choice 
+                  - generic [ref=f1e212]:
+                    - generic [ref=f1e213] [cursor=pointer]: Phone Number
+                    - textbox "Phone Number" [ref=f1e216]
+                  - generic [ref=f1e219]:
+                    - generic [ref=f1e220] [cursor=pointer]: Email Address *
+                    - textbox "Email Address *" [ref=f1e223]
+                  - generic [ref=f1e226]:
+                    - generic [ref=f1e227] [cursor=pointer]: Personal website
+                    - textbox "Personal website" [ref=f1e230]
+                  - generic [ref=f1e233]:
+                    - generic [ref=f1e234] [cursor=pointer]: Passport number *
+                    - textbox "Passport number *" [ref=f1e237]
+                  - generic [ref=f1e240]:
+                    - generic [ref=f1e241] [cursor=pointer]: Passport nationality *
+                    - combobox [ref=f1e243] [cursor=pointer]:
+                      - generic [ref=f1e244]: Select a choice 
+                  - generic [ref=f1e247]:
+                    - generic [ref=f1e248] [cursor=pointer]: Passport expiration *
+                    - generic [ref=f1e252]:
+                      - textbox "Passport expiration *" [ref=f1e253]:
+                        - /placeholder: YYYY/MM/DD
+                      - button " Open a calendar" [ref=f1e254] [cursor=pointer]:
+                        - text: 
+                        - generic [ref=f1e255]: Open a calendar
+                      - generic:    
+                      - generic [ref=f1e256]: "Date format: YYYY/MM/DD"
+              - generic [ref=f1e257]:
+                - generic [ref=f1e259]:
+                  - heading "Accessibility requirements" [level=4] [ref=f1e260]
+                  - paragraph [ref=f1e262]: Describe any accommodation you may require.
+                - group "Do you have any disability? *" [ref=f1e267]:
+                  - generic [ref=f1e270]:
+                    - generic [ref=f1e271] [cursor=pointer]:
+                      - radio "Yes" [ref=f1e272]
+                      - generic [ref=f1e273]: "Yes"
+                    - generic [ref=f1e274] [cursor=pointer]:
+                      - radio " No" [checked] [ref=f1e275]
+                      - generic [ref=f1e276]:  No
+              - generic [ref=f1e277]:
+                - heading "Special info" [level=4] [ref=f1e280]
+                - generic [ref=f1e284]:
+                  - generic [ref=f1e285] [cursor=pointer]: Add notes
+                  - textbox "Add notes" [ref=f1e288]
+              - generic [ref=f1e289]:
+                - generic [ref=f1e290]: Update Profile
+                - generic [ref=f1e294] [cursor=pointer]:
+                  - checkbox "Save personal data in the Indico user profile to be used as default for future registrations." [ref=f1e295]
+                  - generic [ref=f1e296]: Save personal data in the Indico user profile to be used as default for future registrations.
+              - generic [ref=f1e297]:
+                - generic [ref=f1e298]:
+                  - heading "You need to review some of the fields" [level=4] [ref=f1e299]
+                  - list "Fields with errors" [ref=f1e300]:
+                    - listitem [ref=f1e301]:
+                      - 'link "Go to incomplete field Picture: This field is required." [ref=f1e302] [cursor=pointer]':
+                        - /url: "#input-793723"
+                        - text: "Picture: This field is required. "
+                    - listitem [ref=f1e303]:
+                      - 'link "Go to incomplete field Title: This field is required" [ref=f1e304] [cursor=pointer]':
+                        - /url: "#input-793724"
+                        - text: "Title: This field is required "
+                    - listitem [ref=f1e305]:
+                      - 'link "Go to incomplete field Gender: This field is required" [ref=f1e306] [cursor=pointer]':
+                        - /url: "#input-793725"
+                        - text: "Gender: This field is required "
+                    - listitem [ref=f1e307]:
+                      - 'link "Go to incomplete field First Name: This field is required." [ref=f1e308] [cursor=pointer]':
+                        - /url: "#input-793716"
+                        - text: "First Name: This field is required. "
+                    - listitem [ref=f1e309]:
+                      - 'link "Go to incomplete field Last Name: This field is required." [ref=f1e310] [cursor=pointer]':
+                        - /url: "#input-793717"
+                        - text: "Last Name: This field is required. "
+                    - listitem [ref=f1e311]:
+                      - 'link "Go to incomplete field Birth date: This field is required." [ref=f1e312] [cursor=pointer]':
+                        - /url: "#input-793726"
+                        - text: "Birth date: This field is required. "
+                    - listitem [ref=f1e313]:
+                      - 'link "Go to incomplete field City: This field is required." [ref=f1e314] [cursor=pointer]':
+                        - /url: "#input-793727"
+                        - text: "City: This field is required. "
+                    - listitem [ref=f1e315]:
+                      - 'link "Go to incomplete field Passport number: This field is required." [ref=f1e316] [cursor=pointer]':
+                        - /url: "#input-793729"
+                        - text: "Passport number: This field is required. "
+                    - listitem [ref=f1e317]:
+                      - 'link "Go to incomplete field Passport nationality: This field is required." [ref=f1e318] [cursor=pointer]':
+                        - /url: "#input-793730"
+                        - text: "Passport nationality: This field is required. "
+                    - listitem [ref=f1e319]:
+                      - 'link "Go to incomplete field Passport expiration: This field is required." [ref=f1e320] [cursor=pointer]':
+                        - /url: "#input-793731"
+                        - text: "Passport expiration: This field is required. "
+                - generic [ref=f1e321]:
+                  - button "Apply" [disabled]
+  - contentinfo [ref=f1e322]:
+    - generic [ref=f1e323]:
+      - generic [ref=f1e326]:
+        - text: Powered by
+        - link "Indico" [ref=f1e327] [cursor=pointer]:
+          - /url: https://getindico.io/
+        - text: / Brought to you by
+        - link "UNOG" [ref=f1e328] [cursor=pointer]:
+          - /url: https://www.ungeneva.org/
+        - text: and
+        - link [ref=f1e329] [cursor=pointer]:
+          - /url: https://umoja.un.org/
+          - img "umoja" [ref=f1e330]
+      - list [ref=f1e331]:
+        - listitem [ref=f1e332]:
+          - link "Code of Conduct" [ref=f1e333] [cursor=pointer]:
+            - /url: /static/plugins/un/assets/un-code-of-conduct.pdf
+        - listitem [ref=f1e334]:
+          - text: "|"
+          - link "About" [ref=f1e335] [cursor=pointer]:
+            - /url: /about
+        - listitem [ref=f1e336]:
+          - text: "|"
+          - link "Privacy" [ref=f1e337] [cursor=pointer]:
+            - /url: https://www.un.org/en/about-us/privacy-notice
+        - listitem [ref=f1e338]:
+          - text: "|"
+          - link "Help" [ref=f1e339] [cursor=pointer]:
+            - /url: https://indicohelp.unog.ch/
+        - listitem [ref=f1e340]:
+          - text: "|"
+          - link "Contact" [ref=f1e341] [cursor=pointer]:
+            - /url: https://indicohelp.unog.ch/contact-us/
+      - img "Share this page" [ref=f1e344] [cursor=pointer]
